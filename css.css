@@ -1,0 +1,171 @@
+#hero{
+    background-color: #a02334;
+}
+
+#hero > h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#profile_pic{
+    border-radius: 100px;
+    object-fit: cover;
+
+}
+
+.greetings{
+    color: #A02334;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+
+p.text-muted{
+   
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+      
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 30px;
+    
+}
+
+.dance{
+    grid-row: 1/2 ;
+
+    display: flex;
+
+}
+
+.coding{
+    grid-row: 2/3;
+    display: flex;
+}
+
+
+
+.main{
+    
+    background-color: #DBC8AC;
+}
+
+.dance-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dance-desc>p,
+.coding-desc>p{
+    font-size: 24px;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dance-desc>h1,
+.coding-desc>h1,
+.main>h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #4C3A51;
+    
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.contact{
+    text-align: center;
+    background-color: #43658B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact>h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #ED6663;
+    
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.contact p{
+    font-size: 24px;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ED6663;
+    margin: 5px;
+}
+
+.contact-btn{
+    padding: 10px;
+    background-color: #ED6663;
+    border: 2px solid #ED6663;
+    border-radius: 5px;
+    font-size: 24px;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #43658B;
+    width: 150px;
+}
+
+
+
+    
+      
+      
+
+
+p.lead {
+    font-size: 60px; 
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: bold;
+    font-style: normal;
+    color: bisque ;
+}
+
+@media (max-width: 1090px) {
+    .skills{
+        display: grid;
+        grid-template-columns: auto ;
+        grid-template-rows: auto auto auto auto;
+        gap: 20px;
+
+    }
+
+    .coding{
+        grid-row: 3/4 ;
+    }
+
+    
+
+    .dance-desc>p,
+    .coding-desc>p{
+    font-size: 19px;
+    }
+    
+}
